@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;  
+    font-family: "Montserrat";
+    padding: 0;
+    margin: 0;
+    
+}
+body{ 
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    background-color: hsl(30, 38%, 92%);  
+
+}
+
+h2{
+    font-family:"Fraunces","serif" ;
+}
+p{
+    font-size: 14px;
+}
+.card{
+    width: 500px;
+    height: 100%;
+ 
+ }
+.card_container{
+    display: flex;
+    
+
+}
+.card_image{
+    background-image: url('./imagess/image-product-desktop.jpg');
+    background-size: cover;
+    background-position: center center;
+    width:50%;
+    border-radius: 0.5rem 0 0 0.5rem;
+}
+.card_info{
+    width:50%;
+    background-color:white;
+    padding: 2rem;
+    border-radius: 0 .5rem .5rem 0;
+}
+.sub_title{
+    color: hsl(212, 21%, 14%);
+    padding-bottom: 20px;
+}
+.price{
+    display: flex;
+    justify-content: space-between;
+}
+.price p{
+    text-decoration: line-through;
+}
+button{
+    width:100%;
+    background-color: rgb(35, 179, 35);
+    border-bottom: none;
+    border-radius: 0.2rem;
+    
+}
